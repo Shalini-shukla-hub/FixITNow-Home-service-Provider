@@ -1,0 +1,57 @@
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F9F9F9">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center"
+    android:background="#F9F9F9">
+
+    <TextView
+        android:id="@+id/paymentStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Processing Payment..."
+        android:textSize="18sp"
+        android:textColor="#333"
+        android:gravity="center"
+        android:layout_marginBottom="20dp"/>
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"/>
+
+    <Button
+        android:id="@+id/paySuccessButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Simulate Success"
+        android:backgroundTint="#4CAF50"
+        android:textColor="#FFF"/>
+
+    <Button
+        android:id="@+id/payFailureButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Simulate Failure"
+        android:backgroundTint="#D32F2F"
+        android:textColor="#FFF"
+        android:layout_marginTop="10dp"/>
+</LinearLayout>
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNavigationView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?android:attr/windowBackground"
+        app:menu="@menu/bottom_nav_menu"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+</androidx.constraintlayout.widget.ConstraintLayout>
+

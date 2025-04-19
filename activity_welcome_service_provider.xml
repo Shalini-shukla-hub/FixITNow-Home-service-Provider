@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <!-- Toolbar -->
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="?attr/colorPrimary"
+        android:elevation="4dp"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <TextView
+            android:id="@+id/toolbarTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="FixITNow"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/white"
+            android:layout_gravity="center"/>
+    </androidx.appcompat.widget.Toolbar>
+
+    <!-- Profile Icon inside a CardView -->
+    <androidx.cardview.widget.CardView
+        android:id="@+id/profileCard"
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        android:layout_marginEnd="16dp"
+        app:cardCornerRadius="36dp"
+        app:cardElevation="6dp"
+        app:cardBackgroundColor="@android:color/white"
+        android:clipToPadding="false"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/welcomeText">
+
+        <ImageView
+            android:id="@+id/profileIcon"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="8dp"
+            android:src="@drawable/mans"
+            android:scaleType="fitCenter"/>
+    </androidx.cardview.widget.CardView>
+
+    <!-- Real-time Welcome Message -->
+    <TextView
+        android:id="@+id/welcomeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome!"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:gravity="center"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="50dp"/>
+
+    <!-- Banner Image -->
+    <ImageView
+        android:id="@+id/bannerImage"
+        android:layout_width="250dp"
+        android:layout_height="600dp"
+        android:src="@drawable/service"
+        android:contentDescription="Service provider illustration"
+        android:scaleType="fitCenter"
+        android:adjustViewBounds="true"
+        app:layout_constraintTop_toBottomOf="@id/welcomeText"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="20dp"/>
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/viewBookingsBtn"
+        android:layout_width="280dp"
+    android:layout_height="65dp"
+    android:text="View Bookings"
+    android:textAllCaps="false"
+    android:textSize="18sp"
+    android:textStyle="bold"
+    android:textColor="@android:color/white"
+    android:gravity="center"
+    android:elevation="6dp"
+    android:paddingVertical="16dp"
+    android:paddingHorizontal="32dp"
+    app:cornerRadius="16dp"
+    app:icon="@drawable/booking"
+    app:iconPadding="16dp"
+    app:iconTint="@null"
+    app:iconSize="60dp"
+    android:backgroundTint="?attr/colorPrimary"
+    android:foreground="?attr/selectableItemBackground"
+    app:rippleColor="@android:color/white"
+    app:layout_constraintTop_toBottomOf="@id/bannerImage"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"/>
+</androidx.constraintlayout.widget.ConstraintLayout>
+
