@@ -1,0 +1,31 @@
+<resources>
+    <!-- App Name -->
+    <string name="app_name">SignUp Login Firebase</string>
+
+    <!-- Country Codes -->
+    <string-array name="country_codes">
+        <item>+91 (India)</item>
+        <item>+1 (USA)</item>
+        <item>+44 (UK)</item>
+        <item>+61 (Australia)</item>
+        <item>+971 (UAE)</item>
+    </string-array>
+
+    <!-- Common Strings -->
+    <string name="back_arrow">Back</string>
+    <string name="phone_icon_description">Phone Icon</string>
+    <string name="verify_button_text">Verify</string>
+    <string name="enter_otp_prompt">Enter the 6-digit OTP sent to your phone</string>
+    <string name="invalid_otp_message">Please enter a valid 6-digit OTP</string>
+    <string name="otp_verified_message">OTP Verified: %s</string>
+
+    <!-- Error Messages -->
+    <string name="error_invalid_phone">Please enter a valid phone number</string>
+    <string name="error_network">Network error. Please try again.</string>
+    <string name="error_unknown">An unknown error occurred.</string>
+
+    <!-- Other string resources -->
+    <string name="profile_image_description">Profile Image</string>
+    <string name="no_saved_address">No saved address. Please enter one.</string>
+
+</resources>

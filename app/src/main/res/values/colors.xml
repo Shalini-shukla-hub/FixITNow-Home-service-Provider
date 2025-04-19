@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="lavender">#8692f7</color>
+
+
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="purple">#9C27B0</color> <!-- You can change the color code as needed -->
+    <color name="colorAccent">#F44336</color>
+    <color name="colorPrimary">#536DFE</color>
+    <color name="colorPrimaryDark">#536DFE</color>
+    <color name="colorTextPrimary">#212121</color>
+    <color name="colorSecondary">#757575</color>
+    <color name="colorDivider">#BDBDBD</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="gray_600">#757575</color>
+    <color name="gray_500">#9E9E9E</color>
+    <color name="gray_300">#E0E0E0</color>
+    <color name="blue_500">#2979FF</color>
+    <color name="red_500">#F44336</color>
+    <color name="gray_400">#BDBDBD</color> <!-- Light Gray -->
+    <color name="gray_700">#616161</color> <!-- Darker Gray -->
+    <color name="blue">#2196F3</color>
+    <color name="background">#F8F4FC</color>
+    <color name="light_gray">#D3D3D3</color>
+    <color name="gray">#808080</color>
+    <color name="dark_gray">#4A4A4A</color>
+    <color name="primary_color">#007AFF</color> <!-- iOS-style blue -->
+    <color name="bottom_nav_color">#FFFFFF</color>
+    <color name="primary_dark_color">#3700B3</color>
+
+
+    <color name="accent_color">#03DAC5</color> <!-- Replace with your desired color -->
+    <color name="red">#FF0000</color> <!-- Pure Red -->
+    <color name="primary">#6200EE</color>  <!-- Change to your desired color -->
+    <color name="light_blue">#ADD8E6</color>  <!-- Light Blue Color -->
+    <color name="secondary_text">#757575</color> <!-- Example gray color -->
+
+
+
+
+
+
+
+
+</resources>
