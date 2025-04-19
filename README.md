@@ -1,5 +1,5 @@
 # FixITNow-Home-service-Provider
-FixITNow is a home service app using Firebase for auth, Firestore, and notifications. Users book services like plumbing or electrical work. Providers complete profiles and get booking alerts. Includes location access, image uploads, and an admin panel for management.
+FixITNow is a home service app built with Android (Java) using Firebase for auth, Firestore, and notifications. Users book services like plumbing or electrical work. Providers complete profiles and get booking alerts. Includes location access, image uploads, and an admin panel.
 # User Module 
 
 ![Screenshot 2025-04-19 121250](https://github.com/user-attachments/assets/ef4a837c-f4e3-42a8-8613-00a0877e70e0)
