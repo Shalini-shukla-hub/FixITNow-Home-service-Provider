@@ -32,7 +32,7 @@ FixITNow is a home service app using Firebase for auth, Firestore, and notificat
 # Service Provider Module 
 ![Screenshot 2025-04-19 122429](https://github.com/user-attachments/assets/4c1bad40-9537-414d-9891-24984e4d2bb2)
 ![Screenshot 2025-04-19 114844](https://github.com/user-attachments/assets/05f1d38d-9f4c-445a-bdd8-2d5e839ccf98)
-![Screenshot 2025-04-19 114924](https://github.com/user-attachments/assets/f8ba1808-6e85-41e3-adee-6408ed911c1a)
+![Screenshot 2025-04-19 121349](https://github.com/user-attachments/assets/144bcf2a-3c73-4ab4-ac43-24dd2e1e2649)
 ![Screenshot 2025-04-19 122555](https://github.com/user-attachments/assets/9968acbe-e205-400c-b15e-e1e42ebda857)
 
 
